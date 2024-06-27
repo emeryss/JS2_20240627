@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div>
+        Javascript 2기 (2024.6.27 과제)
+    </div>
+    <div>
+        <a href="">Github for this code</a>
+    </div>
+    <!-- 문제 1 -->
+    <div class="area">
+        <div class="title">문제 1</div>
+        <div class="prob-desc">
+            1부터 100까지 더하는 for문을 만들고 결과를 출력하시오
+        </div>
+        <div class="sol-desc">
+            - 시작값 부터 종료값 까지 더한 값을 구해줍니다. </br>
+            - 숫자가 아니거나, 종료값이 시작값 보다 크면 에러가 납니다. </br>
+            - 음수를 입력해도 더해줍니다.
+        </div>
+        <div class="prob-desc">
+            <label for="prob1-startNum">시작 값:&nbsp</label>
+            <input id="prob1-startNum" value="1"/>
+            <label for="prob1-endNum">종료 값:&nbsp</label>
+            <input id="prob1-endNum" value="100"/>
+
+            <button id="prob1-calculate">Calculate</button>
+            <button id="prob1-clear">Clear</button>
+            <div class="result-area" id="prob1-output">결과</div>
+        </div>
+    </div>
+        
+
+    <!-- 문제 2 -->
+    <div class="area">
+        <div class="title">문제 2</div>
+        <div class="prob-desc">
+            1부터 100까지 홀수만 출력하자
+        </div>
+        <div class="sol-desc">
+            문제 1과 마찬가지로 시작값과 종료값을 입력하면 결과를 보여줍니다.
+        </div>
+        <div class="prob-desc">
+            <label for="prob2-startNum">시작 값:&nbsp</label>
+            <input id="prob2-startNum" value="1">
+            <label for="prob2-endNum">끝 값:&nbsp</label>
+            <input id="prob2-endNum" value="100">
+
+            <button id="prob2-calculate">Calculate</button>
+            <button id="prob2-clear">Clear</button>
+
+            <div class="result-area" id="prob2-output">결과</div>
+        </div>  
+    </div>
+    
+
+    <!-- 문제 3 -->
+    <div class="area">
+        <div class="title">문제 3</div>
+        <div class="prob-desc">
+            1부터 50까지 369 결과를 프린트 하자.
+        </div>
+        <div class="sol-desc">
+            - 문제에서는 50까지라고 했지만 최대 500까지 카운트 할 수 있습니다. </br>
+            - 위와 마찬가지로 음수, 소숫점, 문자열 등은 받지 않스니다. </br>
+            - 조건에 3,6,9 말고 다른 조건으로 설정해도 되는데, 0~9까지의 숫자만 받습니다.
+        </div>
+        <div>
+            <label for="prob3-limit">1 부터 몇까지 셀까요?</label>
+            <input id="prob3-limit" value="50">
+            <div id="max-count"></div>
+        </div>
+        <div>
+            <label for="prob3-condition1">조건 1:&nbsp</label>
+            <input id="prob3-condition1" value="3">
+            <label for="prob3-condition2">조건 2:&nbsp</label>
+            <input id="prob3-condition2" value="6">
+            <label for="prob3-condition3">조건 3:&nbsp</label>
+            <input id="prob3-condition3" value="9">
+
+            <button id="prob3-results">Results</button>
+            <button id="prob3-clear">Clear</button>
+            
+            <div class="result-area" id="prob3-output">결과</div>
+        </div>
+        
+    </div>
+    
+
+    <!-- 문제 4 -->
+    <div class="area">
+        <div>문제 4</div>
+        <div class="prob-desc">
+            주어진 숫자가 소수이면 true 아니면 false를 출력하는 프로그램을 짜시오
+        </div>
+        <div class="sol-desc">
+            - 위와 마찬가지로 음수, 소숫점은 입력 받지 않고 </br>
+            - 0, 1, 2도 소수가 아니므로 받지 않습니다.
+        </div>
+        <div>
+            <input id="prob4-input">
+            <button id="prob4-button">Check for Prime Number</button>
+            <div class="result-area" id="output4">결과</div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

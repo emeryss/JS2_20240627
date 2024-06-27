@@ -1,0 +1,33 @@
+.area{
+    background-color: rgb(227, 227, 227);
+    width: 1000px;
+    margin: 10px;
+    padding: 10px
+}
+
+.title{
+    font-size: xx-large;
+}
+
+.prob-desc{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sol-desc{
+    padding:10px;
+    width:fit-content;
+    background-color: rgb(245, 221, 225);
+    border-radius: 10px;
+}
+
+.result-area{
+    border: solid red 1px;
+    width: 800px;
+    margin-top: 10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+
+    word-wrap: break-word;
+    background-color: rgb(235, 249, 255);
+}
